@@ -12,7 +12,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/oswaldoneto/dio-experts-config.git
+          uri: h
 ```
 
 ## Service Registration and Discovery
