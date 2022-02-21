@@ -12,7 +12,7 @@ spring:
     config:
       server:
         git:
-          uri: h
+          uri: https://gitlab.com/alisonbarreiro/config-server-yml.git
 ```
 
 ## Service Registration and Discovery
