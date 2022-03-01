@@ -1,4 +1,4 @@
-##Uma arquitetura de miscroserviços com Spring Boot
+# Uma arquitetura de miscroserviços com Spring Cloud
 No comércio eletrônico, a criação de microsserviços confiáveis ​​e escaláveis ​​é fundamental para fornecer aos clientes uma experiência de compra consistentemente ideal e simplificar a complexidade envolvida no envio de novos recursos.
 
 ## O Spring Cloud Config
