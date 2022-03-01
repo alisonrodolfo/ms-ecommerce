@@ -1,3 +1,6 @@
+##Uma arquitetura de miscroserviços com Spring Boot
+No comércio eletrônico, a criação de microsserviços confiáveis ​​e escaláveis ​​é fundamental para fornecer aos clientes uma experiência de compra consistentemente ideal e simplificar a complexidade envolvida no envio de novos recursos.
+
 ## O Spring Cloud Config
 O Spring Cloud Config fornece suporte do lado do servidor e do lado do cliente para configuração externa em um sistema distribuído.
 A estratégia padrão para localizar fontes de propriedade é clonar um repositório git
