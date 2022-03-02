@@ -6,7 +6,9 @@ import org.springframework.data.annotation.Id;
 import org.springframework.data.elasticsearch.annotations.Document;
 
 /**
- * @author https://github.com/alisonrodolfo
+ * The type Product.
+ *
+ * @author https ://github.com/alisonrodolfo
  */
 @Getter
 @Setter

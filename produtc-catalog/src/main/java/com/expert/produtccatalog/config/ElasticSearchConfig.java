@@ -10,14 +10,20 @@ import org.springframework.data.elasticsearch.config.AbstractElasticsearchConfig
 import org.springframework.data.elasticsearch.repository.config.EnableElasticsearchRepositories;
 
 
-
 /**
- * @author https://github.com/alisonrodolfo
+ * The type Elastic search config.
+ *
+ * @author https ://github.com/alisonrodolfo
  */
 @Configuration
 @EnableElasticsearchRepositories(basePackages="com.expert.produtccatalog.repository")
 public class ElasticSearchConfig extends AbstractElasticsearchConfiguration {
 
+    /**
+     * Elasticsearch client rest high level client.
+     *
+     * @return the rest high level client
+     */
     @Override
     @Bean
     public RestHighLevelClient elasticsearchClient() {

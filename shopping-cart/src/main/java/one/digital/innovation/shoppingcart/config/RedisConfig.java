@@ -9,10 +9,18 @@ import org.springframework.data.redis.connection.lettuce.LettuceConnectionFactor
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.data.redis.repository.configuration.EnableRedisRepositories;
 
+/**
+ * The type Redis config.
+ */
 @Configuration
 @EnableRedisRepositories
 public class RedisConfig {
 
+    /**
+     * Redis connection factory redis connection factory.
+     *
+     * @return the redis connection factory
+     */
     @Bean
     protected RedisConnectionFactory redisConnectionFactory() {
         RedisStandaloneConfiguration redisStandaloneConfiguration = new RedisStandaloneConfiguration();
@@ -21,6 +29,11 @@ public class RedisConfig {
         return new LettuceConnectionFactory(redisStandaloneConfiguration);
     }
 
+    /**
+     * Redis template redis template.
+     *
+     * @return the redis template
+     */
     @Bean
     public RedisTemplate<String, Object> redisTemplate() {
         RedisTemplate<String, Object> template = new RedisTemplate<>();
