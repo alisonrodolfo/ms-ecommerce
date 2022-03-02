@@ -1,7 +1,5 @@
-# Uma arquitetura de miscroserviços com Spring Boot
-
+# Uma arquitetura de miscroserviços com Spring Cloud
 No comércio eletrônico, a criação de microsserviços confiáveis ​​e escaláveis ​​é fundamental para fornecer aos clientes uma experiência de compra consistentemente ideal e simplificar a complexidade envolvida no envio de novos recursos.
-
 
 ## O Spring Cloud Config
 O Spring Cloud Config fornece suporte do lado do servidor e do lado do cliente para configuração externa em um sistema distribuído.
@@ -12,7 +10,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/oswaldoneto/dio-experts-config.git
+          uri: https://gitlab.com/alisonbarreiro/config-server-yml.git
 ```
 
 ## Service Registration and Discovery
